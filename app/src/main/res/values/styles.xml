@@ -1,0 +1,18 @@
+<resources>
+    <!-- Базовый стиль для приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Стиль для кнопок алфавита -->
+    <style name="AlphabetButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/btn_alphabet_bg</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:allCaps">false</item>
+    </style>
+</resources>
